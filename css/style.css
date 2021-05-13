@@ -247,7 +247,7 @@ header .logo img {
 
     .banner .play {
         left: 50px;
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     .play img {
@@ -264,8 +264,24 @@ header .logo img {
 
 @media (max-width: 600px) {
 
+    header {
+        padding: 20px;
+    }
+
+    .search {
+        position: relative;
+        width: calc(100% - 20px);
+        height: 40px;
+    }
+
     .banner {
-        padding: 200px 50px;
+        padding: 220px 20px 120px;
+    }
+
+    .banner .play {
+        left: 20px;
+        font-size: 1em;
+        bottom: 30px;
     }
 
 }
